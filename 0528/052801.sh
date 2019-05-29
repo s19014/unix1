@@ -1,1 +1,2 @@
-cat /etc/passwd | echo $USER
+cat /etc/passwd | grep $USER
+#cat /etc/passwd | echo $USER
